@@ -1,0 +1,16 @@
+{
+  "functions": {
+    "app/api/consensus/route.ts": {
+      "runtime": "edge"
+    },
+    "app/api/oracle/route.ts": {
+      "runtime": "edge"
+    }
+  },
+  "crons": [
+    {
+      "path": "/api/consensus",
+      "schedule": "*/5 * * * *"
+    }
+  ]
+}
